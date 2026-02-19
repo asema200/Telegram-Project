@@ -8,8 +8,6 @@ import quiz
 # Загрузка переменных окружения
 load_dotenv()
 
-# Токен бота - ВАЖНО: Создай файл .env в корне проекта и добавь:
-# BOT_TOKEN=твой_токен_от_BotFather
 TOKEN = os.getenv('BOT_TOKEN')
 if not TOKEN:
     print("❌ ОШИБКА: Токен не найден!")
